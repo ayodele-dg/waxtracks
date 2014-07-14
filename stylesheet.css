@@ -1,0 +1,134 @@
+body {
+    background-color:black;
+}
+.logo {
+    float:left;
+}
+.waxtracks {
+    margin-left:120px;
+}
+.tag{
+    font-family:Helvetica;
+    font-size:20px;
+    color:white;
+    margin-top:20px;
+    margin-right:150px;
+    float:right;
+}
+header a {
+    font-family: Helvetica;
+    font-weight:bold;
+    text-decoration:none;
+    font-size: 25px;
+    color:#10E0E6;
+    float:right;
+    margin-top:45px;
+    margin-right:20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#nav {
+    background-color: black;
+}
+#navwrapper{
+    width:960px;
+    margin:0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    position: relative;
+}
+#nav ul li {
+    display:inline-block;
+    font-family:Helvetica;
+    text-decoration:none;
+    color:white;
+}
+#nav ul li:hover {
+    background-color:white;
+}
+#nav ul li a,visited {
+    color:black;
+    display:block;
+    padding:25px;
+    text-decoration:none;
+}
+#nav ul li a:hover{
+    color:black;
+    text-decoration:none;
+}
+#nav ul li:hover ul {
+    display:block;
+}
+#nav ul ul {
+    display:none;
+    position:absolute;
+    background-color:white;
+}
+#nav ul ul li {
+    display:block;
+}
+#nav ul ul li a:hover {
+    background-color:black;
+    color:white;
+}
+#main img {
+    float:left;
+}
+#welcome {
+    float:left;
+    font-family:Helvetica;
+    font-size: 15px;
+    color:white;
+    padding:5px 300px 99px 0;    
+}
+#welcome a {
+    color:white;
+    text-decoration: none;
+}
+#welcome a:hover {
+    color:#10E0E6;
+}
+#concertvideo {
+    float:right;
+}
+#footer {
+    position:relative;
+    bottom:0;
+    width:100%;
+    background-color:black;
+    height:60px;
+    clear:both;
+}
+#footer .address {
+    color:#E61610;
+    text-align:center;
+    font-family:Helvetica;
+    font-weight:bold;
+}
+#footer .left a{
+    font-family:Helvetica;
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+    float:left;
+}
+#footer .left a:hover {
+    color:#10e0e6;
+    text-decoration:none;
+}
+#footer .right a{
+    font-family:Helvetica;
+    font-size:18px;
+    color:white;
+    text-decoration:none;
+    float:right;
+}
+#footer .right a:hover {
+    color:#10e0e6;
+    text-decoration:none;
+}
